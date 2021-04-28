@@ -1,0 +1,47 @@
+@import '../scss/variables.scss';
+
+.mainNav{
+    position: relative;
+    height: 300px;
+  
+}
+
+
+.dropdown-menu{
+    width: 200px;
+    position: absolute;
+    background-color: red;
+    list-style: none;
+    top: 180px;
+    color: white;
+    padding: 10px;
+    z-index: 1;
+    left: 35vw;
+    background-color: lightgray;
+    border-radius: 5px;
+    text-align: center;
+    line-height: normal;
+    a{
+        color: $warm-violet;
+        margin: 0;
+        padding: 0;
+        line-height: normal;
+        font-size: 10px;
+        width: 300px;
+    }
+}
+
+.dropdown-link{
+    font-size: 13px;
+    color: red;
+    li{
+        margin-bottom: 40px;
+    }
+
+}
+
+.dropdown-menu-clicked{
+    width: 300px;
+    height: 300px;
+  
+}

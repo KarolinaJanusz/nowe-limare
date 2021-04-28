@@ -1,0 +1,215 @@
+// .baner{
+//     background-image: url(../images/banner4.png);
+//     height: 100vh;
+//     width: 100%;
+//     background-size: cover;
+//     background-position: center;
+   
+//     @media (max-width: 995px){
+//         height: 50vh;
+//     }
+// }
+
+// .bannerSection{
+//     position: fixed;
+// }
+
+
+// .section-2{
+//     // position: relative;
+//     // z-index: 2;
+//     // margin-top: 80vh;
+//     // background-color: white;
+    
+// }
+
+// .section-2{
+//     max-width: 80vw;
+//     margin: 0 auto;
+// }
+
+
+
+.meet-me{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 20px;
+    padding: 40px;
+    .hello-img{
+        width: 50%;
+        @media (max-width: 995px){
+            width: 70vw;
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+    }
+
+    // background-color: #cdbfec;
+
+    @media (max-width: 995px){
+        display: inline;
+       
+    }
+}
+
+.introduction{
+    padding: 0 60px;
+    max-width: 50vw;
+    @media (max-width: 995px){
+        max-width: 80vw;
+        padding: 0;
+        position: relative;
+        margin: 60px auto;
+    }
+    p{
+        margin-top: 20px;
+    }
+}
+
+.hello{
+    
+    @media (max-width: 995px){
+        max-width: 80vw;
+        margin: 0 auto; 
+    }
+    h3{
+        font-family: $main-font;
+        font-style: italic;
+    }
+    h2{
+        margin-bottom: 20px;
+        margin-top: 20px;
+        font-weight: bold;
+    }
+}
+
+
+.sign-up{
+    max-width: 30vw;
+    border: 1px solid $orange-color;
+    padding: 50px 35px;
+    background-color: rgba(252, 236, 174, 0.7);
+    
+    
+    
+    @media (max-width: 995px){
+        position: relative;
+        margin: 30px auto;
+        max-width: 50vw;
+    }
+    h2{
+        margin-bottom: 20px;
+        font-family: 'Poppins';
+        
+    }
+    h5{
+        margin-bottom: 20px;
+        font-family: 'Poppins';
+        font-style: italic;
+        
+    }
+    button{
+        padding: 10px 20px;
+        background-color: $skin-color;
+        
+        border: none;
+        font-weight: bold;
+        border: 1px solid $yellow-color;
+        cursor: pointer;
+    }
+}
+
+.section-3{
+    height: 450px;
+    width: 100vw;
+    background-color: #fcecae;
+
+    @media (max-width: 995px){
+        height: 950px;
+        margin-top: 60px;
+       
+    }
+    h2{
+        font-family: 'Poppins';
+    }
+    h3{
+        font-family: 'Poppins';
+        font-weight: normal;
+    }
+}
+
+.center{
+    max-width: 80vw;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.mainGoals{
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    i{
+        font-size: 30px;
+        color: $warm-violet;
+    }
+    h4{
+        color: $warm-violet;
+    }
+
+    
+}
+
+.post{
+    left: 50%;
+    .title{
+        line-height: normal;
+    }
+    p{
+        display: none;
+    }
+}
+
+.home-article-title{
+    font-style: italic;
+    font-size: 35px;
+    text-align: center;
+    position: relative;
+    margin-top: 80px;
+    color: $warm-violet;
+    &::before{
+        display: block;
+        content: "";
+        width: 1200px;
+        border: 1px solid $skin-color;
+        margin: 0 auto 100px auto;
+        
+    }
+}
+
+.home-article-scd-title{
+    text-align: center;
+    font-family: 'Shadows Into Light Two';
+    color: $warm-violet;
+    font-size: 30px;
+    margin-top: -15px;
+    margin-bottom: 40px;
+
+}
+
+
+.logo6{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto 20px auto;
+}
+
